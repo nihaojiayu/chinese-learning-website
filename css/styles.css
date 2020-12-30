@@ -1,0 +1,111 @@
+:root {
+    --e-global-color-primary: #3BB9FF;
+    --e-global-color-secondary: #FF8354;
+    --e-global-color-text: #919CA7;
+    --e-global-color-accent: #FFCC21;
+    --e-global-color-4a3102d8: #6EC1E4;
+    --e-global-color-398f7ecf: #54595F;
+    --e-global-color-49cb8405: #7A7A7A;
+    --e-global-color-752461cb: #61CE70;
+    --e-global-color-50d405bb: #4054B2;
+    --e-global-color-470929cb: #23A455;
+    --e-global-color-184e2497: #000;
+    --e-global-color-40c7ae29: #FFF;
+    --e-global-color-5be9fee2: #020101;
+}
+
+body {
+  /* color: #4054B2; */
+  margin: 0;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  color: #FF8354;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 2.85rem;
+}
+
+h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: 1.33rem;
+  line-height: 1.3;
+  color: #54595F;
+}
+
+p {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+span {
+  color: #54595F;
+}
+
+u {
+  color: #4054B2;
+}
+
+u:hover{
+  color: #FFCC21;
+}
+
+#top-container {
+  width: auto;
+  height: 100%;
+  /* background-color: #ff9a3c; */
+  position: relative;
+  padding: 5px 0 15px 0;
+}
+
+.header {
+  width: 40%;
+  text-align: left;
+  position: relative;
+  left: 100px;
+  margin-bottom: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.header-image {
+  position: absolute;
+  left: 700px;
+  top: 840px;
+}
+
+.header-image-sec {
+  position: absolute;
+  left: 700px;
+  top: 580px;
+}
+
+.header-image-first {
+  width: 60%;
+  background-color: #fff;
+  text-align: right;
+}
+
+.header-image-second {
+  width: 60%;
+  background-color: #fff;
+  text-align: right;
+}
+
+.header-description {
+  width: 40%;
+  text-align: left;
+  padding-left: 100px;
+  /* position: relative;
+  top: 480.21px;
+  left: 100px; */
+}
+
+.contact-me {
+  background-color: grey;
+  font-size: 0.8rem;
+  padding: 30px 0 30px 0;
+}
